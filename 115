@@ -1,0 +1,490 @@
+<section class="calculator" id="calculator">
+                <div class="calculator__container">
+                    <div class="wrapper">
+                        <div class="calculator__content">
+                            <div class="content-top">
+                                <h2 class="content-title standart-title" data-on-scroll-display-js="fade-bottom">Узнайте стоимость стеклянной перегородки по вашим параметрам в 2-х ценовых категориях</h2>
+                                <div class="content-side">
+                                    <div class="side-title">
+                                        В конце теста
+                                        <br>вы получите:
+                                    </div>
+                                    <ul class="side-list">
+                                        <li>Расчет стоимости в 2-х вариантах</li>
+                                        <li>Бесплатная консультацию нашего инженера</li>
+                                        <li>Подарок</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content-bullets">
+                                <div class="container-flex">
+            
+                                    <div class="bullets-item">
+                                        <div class="item-number">01</div>
+                                        <div class="item-text">
+                                            <b>Ответьте на 4 простых вопроса,</b>
+                                            <br>которые помогут нам рассчитать стоимость
+                                        </div>
+                                    </div>
+            
+                                    <div class="bullets-item">
+                                        <div class="item-number">02</div>
+                                        <div class="item-text">
+                                            <b>Получите расчет стоимости в 2-х вариантах,</b> 2-3 похожих
+                                            <br>варианта фото/видео, бесплатную консультацию нашего инженера
+                                        </div>
+                                    </div>
+            
+                                    <div class="bullets-item">
+                                        <div class="item-number">03</div>
+                                        <div class="item-text">
+                                            <b>Выберите</b> один из
+                                            <br>трех подарков
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+                            <div class="content-quiz">
+                                <form action="PHP/quiz.php" onsubmit="ym(93651481,'reachGoal','quiz_complete')" method="POST" class="quiz" data-quiz-js="" data-simple-form-validate-js="">
+                                    <div class="quiz__main" data-quiz-main-js="">
+            
+                                        <div class="quiz__progress">
+                                            <div class="progress-line" data-quiz-progress-line-js=""></div>
+                                            <div class="progress-text" data-quiz-progress-text-js="">Вопрос <span data-quiz-progress-active-js="">1</span> из <span data-quiz-progress-total-js="">4</span>
+                                            </div>
+                                        </div>
+            
+                                        <div class="quiz__container" data-quiz-container-js="" data-quiz-active-question-id="1">
+            
+                                            <div class="quiz__questions">
+            
+                                                <div class="questions-item active visible" data-quiz-question-id="1">
+                                                    <input type="hidden" name="question_1" value="Выберите тип перегородки:">
+                                                    <div class="item-title">Выберите тип перегородки:</div>
+                                                    <div class="item-container">
+                                                        <div class="container-flex">
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="type_1" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_1')" class="item-input" name="answer_1" value="С раздвижными дверями">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q13.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">С раздвижными дверями</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="type_2" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_1')" class="item-input" name="answer_1" value="Телескопическая (каскадная)">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q12.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Телескопическая (каскадная)</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="type_3" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_1')" class="item-input" name="answer_1" value="Раздвижная дверь">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q11.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Раздвижная дверь</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="type_4" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_1')" class="item-input" name="answer_1" value="С распашными дверями">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q14.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">С распашными дверями</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="type_5" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_1')" class="item-input" name="answer_1" value="Складная (гармошка, книжка)">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q15.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Складная (гармошка, книжка)</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="type_skip" data-quiz-price-skip-js="true">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_1')" class="item-input" name="answer_1" value="Нужно другое">
+                                                                <div class="item-img"></div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Нужно другое</div>
+                                                                </div>
+                                                            </div>
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+            
+                                                <div class="questions-item" data-quiz-question-id="2">
+                                                    <input type="hidden" name="question_2" value="Выберите тип стекла:">
+                                                    <div class="item-title">Выберите тип стекла:</div>
+                                                    <div class="item-container">
+                                                        <div class="container-flex">
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="glass_1" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_2')" class="item-input" name="answer_2" value="Прозрачное">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q21.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Прозрачное</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="glass_2" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_2')" class="item-input" name="answer_2" value="Матовое">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q22.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Матовое</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="glass_3" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_2')" class="item-input" name="answer_2" value="Графит">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q23.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Графит</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="glass_4" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_2')" class="item-input" name="answer_2" value="Бронза">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q24.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Бронза</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="glass_5" data-quiz-price-skip-js="false">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_2')" class="item-input" name="answer_2" value="Рифленое">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q25.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Рифленое</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="" data-quiz-price-js="glass_skip" data-quiz-price-skip-js="true">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_2')" class="item-input" name="answer_2" value="Нужно другое">
+                                                                <div class="item-img"></div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Нужно другое</div>
+                                                                </div>
+                                                            </div>
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+            
+                                                <div class="questions-item" data-quiz-question-id="3">
+                                                    <input type="hidden" name="question_3" value="Укажите размер перегородки (можно примерно):">
+                                                    <div class="item-title">Укажите размер перегородки (можно примерно):</div>
+                                                    <div class="item-container">
+                                                        <div class="container-flex">
+            
+                                                            <div class="item-input-answer" data-quiz-sizes-js="">
+                                                                <div class="answer-text">Высота перегородки, м</div>
+                                                                <div class="answer-main">
+                                                                    <input type="text" onclick="ym(93651481,'reachGoal','quiz_3')" name="answer_3_length" autocomplete="off" class="answer-input" placeholder="0.0" data-quiz-sizes-input-js="" data-quiz-length-size-js="">
+                                                                    <div class="answer-buttons">
+                                                                        <div class="answer-btn" data-quiz-sizes-up-btn-js="">
+                                                                            <img src="static/img/general/quiz-input-up.svg" alt="" class="desktop-only">
+                                                                            <img src="static/img/general/quiz-input-plus.svg" alt="" class="mobile-only">
+                                                                        </div>
+                                                                        <div class="answer-btn" data-quiz-sizes-down-btn-js="">
+                                                                            <img src="static/img/general/quiz-input-down.svg" alt="" class="desktop-only">
+                                                                            <img src="static/img/general/quiz-input-minus.svg" alt="" class="mobile-only">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-input-answer" data-quiz-sizes-js="">
+                                                                <div class="answer-text">Ширина перегородки, м</div>
+                                                                <div class="answer-main">
+                                                                    <input type="text" onclick="ym(93651481,'reachGoal','quiz_3')" name="answer_3_width" autocomplete="off" class="answer-input" placeholder="0.0" data-quiz-sizes-input-js="" data-quiz-width-size-js="">
+                                                                    <div class="answer-buttons">
+                                                                        <div class="answer-btn" data-quiz-sizes-up-btn-js="">
+                                                                            <img src="static/img/general/quiz-input-up.svg" alt="" class="desktop-only">
+                                                                            <img src="static/img/general/quiz-input-plus.svg" alt="" class="mobile-only">
+                                                                        </div>
+                                                                        <div class="answer-btn" data-quiz-sizes-down-btn-js="">
+                                                                            <img src="static/img/general/quiz-input-down.svg" alt="" class="desktop-only">
+                                                                            <img src="static/img/general/quiz-input-minus.svg" alt="" class="mobile-only">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+            
+                                                <div class="questions-item" data-quiz-question-id="4">
+                                                    <input type="hidden" name="question_4" value="Выберите подарок 🎁, который получите при заказе:">
+                                                    <div class="item-title">Выберите подарок 🎁, который получите при заказе:</div>
+                                                    <div class="item-container">
+                                                        <div class="container-flex">
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_4')" class="item-input" name="answer_4" value="Арома дифузор">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q41.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Арома дифузор</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_4')" class="item-input" name="answer_4" value="Поднос">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q42.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Поднос</div>
+                                                                </div>
+                                                            </div>
+            
+                                                            <div class="item-answer" data-quiz-single-answer-js="">
+                                                                <input type="radio" onclick="ym(93651481,'reachGoal','quiz_4')" class="item-input" name="answer_4" value="Разделочная доска">
+                                                                <div class="item-img" data-img-loader-bg="">
+                                                                    <img src="static/img/content/default-img.png" data-img-src="static/img/content/q43.jpg" alt="">
+                                                                </div>
+                                                                <div class="item-main">
+                                                                    <div class="item-icon">
+                                                                        <svg width="11" height="7" viewbox="0 0 11 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M10.001 0.967731L9.17854 0.162821C9.06765 0.0542941 8.92903 3.05176e-05 8.77194 3.05176e-05C8.61484 3.05176e-05 8.47623 0.0542941 8.36534 0.162821L4.41022 4.03362L2.64521 2.29719C2.53431 2.18866 2.3957 2.1344 2.2386 2.1344C2.08151 2.1344 1.9429 2.18866 1.832 2.29719L1.00956 3.1021C0.88943 3.21062 0.833984 3.34628 0.833984 3.50003C0.833984 3.65378 0.88943 3.78944 1.00032 3.89796L3.18118 6.03233L4.00362 6.83724C4.11451 6.94577 4.25313 7.00003 4.41022 7.00003C4.56732 7.00003 4.70593 6.94577 4.81682 6.83724L5.63926 6.03233L10.001 1.7636C10.1119 1.65507 10.1673 1.51941 10.1673 1.36566C10.1673 1.21192 10.1119 1.07626 10.001 0.967731Z" fill="#575C63"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="item-text">Разделочная доска</div>
+                                                                </div>
+                                                            </div>
+            
+                                                        </div>
+                                                    </div>
+                                                </div>
+            
+                                            </div>
+            
+                                            <div class="quiz__bottom">
+                                                <div class="bottom-text">
+                                                    <b>Выберите вариант ответа</b>
+                                                    <br>и нажмите кнопку “Далее”
+                                                </div>
+                                                <div class="bottom-controls">
+                                                    <div class="prev-btn" data-quiz-prev-btn-js="">назад</div>
+                                                    <div class="controls-btn disabled" data-quiz-btn-control-js="">
+                                                        <div class="btn-hint">Ответьте на вопрос выше чтобы продолжить</div>
+                                                        <div class="next-btn standart-btn" data-quiz-next-btn-js="">
+                                                            <span>далее</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+            
+                                        <div class="quiz__final" data-quiz-final-js="">
+                                            <input type="hidden" name="standart_price" data-quiz-standart-price-input-js="">
+                                            <input type="hidden" name="premium_price" data-quiz-premium-price-input-js="">
+                                            <input type="hidden" name="price_skip" data-quiz-price-skip-input-js="">
+                                            <div class="final-title">ОТЛИЧНО!</div>
+                                            <div class="final-text">Результат по вашим ответам:</div>
+                                            <div class="final-info">
+            
+                                                <div class="info-block">
+                                                    <div class="block-title">Сроки изготовления около:</div>
+                                                    <div class="block-container">
+                                                        <div class="block-item">
+                                                            <div class="item-text">35-40 рабочих дней</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+            
+                                                <div class="info-block">
+                                                    <div class="block-title">Предварительная стоимость:</div>
+                                                    <div class="block-container" data-quiz-prices-js="standart&premium">
+            
+                                                        <div class="block-item" data-quiz-prices-type-js="standart">
+                                                            <div class="item-title">Стандарт +</div>
+                                                            <div class="item-text"><span data-quiz-standart-price-js="">0-0</span> тыс.руб.</div>
+                                                        </div>
+            
+                                                        <div class="block-item" data-quiz-prices-type-js="premium">
+                                                            <div class="item-title">Престиж +</div>
+                                                            <div class="item-text"><span data-quiz-premium-price-js="">0-0</span> тыс.руб.</div>
+                                                        </div>
+            
+                                                        <div class="block-item" data-quiz-prices-type-js="special">
+                                                            <input type="hidden" name="default_price" value="16-40 тыс.руб. / кв. м.">
+                                                            <div class="item-text">16-40 тыс.руб. / кв. м.</div>
+                                                        </div>
+            
+                                                    </div>
+                                                </div>
+            
+                                            </div>
+            
+                                            <div class="final-form standart-form">
+                                                <div class="form-text">
+                                                    Оставьте номер телефона, чтобы зафиксировать свой подарок, а также получить точную смету и примеры стеклянных
+                                                    <br>перегородок, которые вам могут понравиться
+                                                </div>
+                                                <div class="form-container">
+            
+                                                    <div class="form-item">
+                                                        <div class="form-select" data-select-with-icons-js="">
+                                                            <div class="select-images">
+                                                                <img src="static/img/general/whats-app-icon.svg" alt="" class="select-icon active" data-select-icon-js="WhatsApp">
+                                                                <img src="static/img/general/telegram-icon.svg" alt="" class="select-icon" data-select-icon-js="Telegram">
+                                                            </div>
+                                                            <select name="social" data-nice-select-js="">
+                                                                <option value="WhatsApp">Whats App</option>
+                                                                <option value="Telegram">Telegram</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+            
+                                                    <div class="form-item">
+                                                        <input type="text" name="phone" placeholder="+7 ( _ _ _ ) _ _ _ - _ _ - _ _" data-phone-mask-js="+7 (000) 000 - 00 - 00" class="form-input">
+                                                    </div>
+            
+                                                    <button class="form-btn standart-btn" data-form-control-btn-js="">
+                                                        <span>
+                                                        Зафиксировать подарок<br>
+                                                        получить смету и примеры
+                                                    </span>
+                                                    </button>
+                                                    
+                                                    <div class="form-btn reload-btn" data-page-reload-btn-js="">
+                                                        <span>Пересчитать стоимость</span>
+                                                    </div>
+            
+                                                </div>
+            
+                                                <div class="form-checkbox">
+                                                    <div class="checkbox-icon checked" data-form-control-checkbox-js="">
+                                                        <input type="checkbox" name="policy-agreement" checked="checked">
+                                                        <img src="static/img/general/form-check.svg" alt="">
+                                                    </div>
+                                                    <div class="checkbox-text">Нажимая кнопку вы соглашаетесь с условиями <span data-popup-open-js="politika-popup">Политики конфиденциальности</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+            
+                                            <div class="final-info-text">Цены без возможных аксессуаров, со стандартной раскладной, без монтажа и доставки. Указанные цены служат для понимания порядка стоимости. Не является публичной офертой.</div>
+                                            
+                                        </div>
+            
+                                    </div>
+            
+                                    <div class="quiz__side desktop-only" data-quiz-side-js="" data-img-loader-bg="">
+                                        <img src="static/img/content/default-img.png" data-img-src="static/img/content/quiz-side-bg-img.jpg" alt="" class="side-bg">
+                                        <img src="static/img/content/default-img.png" data-img-src="static/img/content/quiz-side-person-img.png" alt="" class="side-person">
+                                        <div class="side-content">
+                                            <img src="static/img/general/quote-icon.svg" alt="" class="side-icon">
+                                            <div class="side-title">Здравствуйте, меня зовут дмитрий</div>
+                                            <div class="side-text">По результатам ваших ответов я сориентирую вас по стоимости, отвечу на все вопросы, подберу инженера для проведения консультации</div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="quiz__loader" data-quiz-loader-js="">
+                                        <span>Получение данных</span>
+                                    </div>
+            
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
